@@ -182,7 +182,6 @@ public class Silly implements Comparable<Silly>{
     public int compareTo(Silly other) {
         int A = this.name.length();
         int B = ((Silly) other).name.length();
-
         return Integer.compare(A, B);
     }
 
